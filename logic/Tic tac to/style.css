@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-color:#1D7874;
+    text-align: center;
+}
+    
+.cotanor{
+    height:60vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+
+}
+
+.game{
+    height:50vmin;
+    width:50vmin;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:1.5vmin;
+    
+}
+#heading{
+    color:#071E22;
+    font-size: 50px;
+    font-style: italic;
+
+}
+.boxes{
+    height:15vmin;
+    width:15vmin;
+    border-radius: 1rem;
+    border:none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+    font-size:7vmin;
+    color:#EE2E31;
+    background-color:#F4C095;
+}
+.boxes:hover{
+    background-color: #47E5BC;
+}
+#reset{
+    height:8vmin;
+    width:18vmin;
+    background-color:#071E22;
+    color: white;
+    font-size:3vmin;
+    border:none;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+}
+#reset:hover{
+    background-color: #47E5BC;
+}
+#newgame{
+    height:6vmin;
+    width:18vmin;
+    background-color:#071E22;
+    color: white;
+    font-size:3vmin;
+    border:none;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+}
+#newgame:hover{
+    background-color: #47E5BC;
+}
+#msg{
+    font-size: 40px;
+    color:#F4C095;
+    font-style: italic;
+}
+.hide{
+    display:none;
+}

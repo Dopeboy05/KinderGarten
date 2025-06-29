@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🚗 Alphabet Race Game</title>
+  <link rel="stylesheet" href="race.css">
+</head>
+<body>
+  <header>
+    <h1>🚗 Alphabet Race Game</h1>
+    <p>Press the correct key to move your car forward!</p>
+  </header>
+
+  <main>
+    <div class="track">
+      <div id="car">🚗</div>
+      <div id="goal">🏁</div>
+    </div>
+
+    <div class="prompt">
+      <p>Press this letter: <span id="target-letter"></span></p>
+    </div>
+
+    <div id="message"></div>
+    <button id="restart-btn">🔄 Restart</button>
+  </main>
+
+  <script src="game.js"></script>
+</body>
+</html>

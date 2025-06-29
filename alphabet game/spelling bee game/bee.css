@@ -1,0 +1,62 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: linear-gradient(to right, #fceabb, #f8b500);
+    color: #333;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    text-shadow: 2px 2px #000;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #222;
+    font-weight: bold;
+  }
+  
+  .controls {
+    margin: 20px;
+  }
+  
+  button {
+    padding: 12px 20px;
+    margin: 5px;
+    font-size: 1rem;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  .input-section {
+    margin: 30px auto;
+  }
+  
+  #user-input {
+    padding: 10px;
+    font-size: 1.2rem;
+    width: 60%;
+    max-width: 300px;
+    border: 2px solid #555;
+    border-radius: 5px;
+  }
+  
+  .feedback {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #fff;
+    text-shadow: 1px 1px #000;
+  }
+  

@@ -1,0 +1,77 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: linear-gradient(120deg, #fceabb, #f8b500);
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    background-color: #fffbea;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #ff6f61;
+}
+
+#letter-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.letter-item {
+    display: flex;
+    flex-direction: column;
+    background-color: #fef9e7;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #f7d794;
+}
+
+.letter-item label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #5d3a00;
+}
+
+input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #58b368;
+    color: white;
+    border: none;
+    font-size: 1em;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+#results {
+    margin-top: 30px;
+    font-size: 1.2em;
+    text-align: center;
+    color: #3e3e3e;
+    background-color: #fff3cd;
+    padding: 20px;
+    border-radius: 15px;
+    border: 2px dashed #f9c74f;
+}

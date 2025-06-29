@@ -1,0 +1,128 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family:'poppins',sans-serif;
+    box-sizing:border-box;
+}
+
+
+.wholescrean{
+    width: 100%;
+    height: 100vh;
+    background-color: #E0E1DD;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.calculator{
+    background-color:#778DA9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow:-6px -6px 10px rgba(0, 0, 3, 0.307) ,4px 4px 10px rgba(0, 0, 0, 0.263);
+    border: 3px solid #1B263B;
+}
+.calculator form input{
+    border: 0;
+    outline:0;
+    width: 70px;
+    height:70px;
+    border-radius: 10px;
+    box-shadow:6px -6px 10px rgba(0, 0, 3, 0.307) ,4px 4px 10px rgba(0, 0, 0, 0.263);
+    font-size:20px;
+    cursor: pointer;
+    margin:10px;
+    background: #415A77;
+    color:#FFF7AE;
+    border: 3px solid #1B263B;
+}
+form input.but{
+    border-radius: 10px;
+    background: #415A77;
+    color:white;
+    border: 3px solid #1B263B;
+
+}
+form input.equal{
+    background: #023e8a;
+    color:#d62828;
+}
+form input.mode{
+    border: 0;
+    outline:0;
+    width: 350px;
+    height:30px;
+    background: #023e8a;
+}
+form .dispaly{
+    display: flex;
+    justify-content: flex-end;
+    margin: 25px 0;
+}
+form .dispaly input{
+    text-align: right;
+    flex:1;
+    font-size:40px;
+    box-shadow:none;
+}
+
+
+
+.dark{
+
+    .wholescrean{
+        width: 100%;
+        height: 100vh;
+        background-color:#370617;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .calculator{
+        background-color:#6A040F;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow:-8px -8px 15px rgb(7, 2, 41) ,5px 5px 15px rgba(0,0,0.2);
+    }
+    .calculator form input{
+        border: 0;
+        outline:0;
+        width: 70px;
+        height:70px;
+        border-radius: 10px;
+        box-shadow:-8px -8px 15px rgb(7, 2, 41) ,5px 5px 15px rgba(0,0,0.2);
+        font-size:20px;
+        cursor: pointer;
+        margin:10px;
+        background: #848FA5;
+        color:#FFF7AE;
+    }
+    form input.but{
+        border-radius: 50%;
+        background: #FFBA08;
+        color:black;
+    }
+    form input.equal{
+        background: #E85D04;
+        color:#fff;
+    }
+    form input.mode{
+        border: 0;
+        outline:0;
+        width: 350px;
+        height:30px;
+        background: #FFBA08;
+        color:black;
+    }
+    form .dispaly{
+        display: flex;
+        justify-content: flex-end;
+        margin: 25px 0;
+    }
+    form .dispaly input{
+        text-align: right;
+        flex:1;
+        font-size:40px;
+        box-shadow:none;
+    }
+
+}

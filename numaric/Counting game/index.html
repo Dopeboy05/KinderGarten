@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>🔢 Counting Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🧮 Count the Objects!</h1>
+
+  <div class="question-box" id="game-box">
+    <div id="question-number">Question 1 of 10</div>
+    <div id="question-text">How many?</div>
+    <div id="image-container"></div>
+    <input type="number" id="user-answer" placeholder="Type your answer" />
+    <br />
+    <button onclick="submitAnswer()">Submit ✅</button>
+  </div>
+
+  <div id="result-screen" style="display: none;">
+    <h2>🎉 You Finished!</h2>
+    <div id="score"></div>
+    <div id="feedback"></div>
+    <button onclick="restartGame()">🔁 Play Again</button>
+    <br><br>
+    <button onclick="goBack()">⬅️ Back to Main Page</button>
+  </div>
+
+  <canvas id="confetti-canvas"></canvas>
+  <script src="confetti.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

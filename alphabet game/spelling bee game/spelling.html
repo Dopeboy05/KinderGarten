@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🐝 Spelling Bee Mini Game</title>
+  <link rel="stylesheet" href="bee.css">
+</head>
+<body>
+  <header>
+    <h1>🐝 Spelling Bee Mini Game</h1>
+    <p>Listen carefully and spell the word!</p>
+  </header>
+  <main>
+    <div class="controls">
+      <button id="play-word">🔊 Play Word</button>
+      <button id="next-word">➡️ Next Word</button>
+    </div>
+
+    <div class="input-section">
+      <input type="text" id="user-input" placeholder="Type the word here..." autocomplete="off">
+      <button id="check-btn">✅ Check</button>
+    </div>
+
+    <div class="feedback" id="feedback"></div>
+  </main>
+
+  <script src="game.js"></script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: linear-gradient(to right, #83a4d4, #b6fbff);
+    text-align: center;
+    padding: 20px;
+    color: #333;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    text-shadow: 2px 2px #000;
+  }
+  
+  .track {
+    position: relative;
+    width: 90%;
+    height: 80px;
+    background-color: #2ecc71;
+    margin: 40px auto;
+    border-radius: 40px;
+    border: 4px dashed #27ae60;
+    overflow: hidden;
+  }
+  
+  #car {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    font-size: 2rem;
+    transition: left 0.3s ease;
+  }
+  
+  #goal {
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    font-size: 2rem;
+  }
+  
+  .prompt span {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #e74c3c;
+  }
+  
+  #message {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 1px 1px #000;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #d35400;
+  }
+  
