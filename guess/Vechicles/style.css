@@ -1,0 +1,40 @@
+body {
+    font-family: 'Comic Sans MS', cursive;
+    background-image: url('images/background.jpg'); /* optional */
+    background-size: cover;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .game-box, #result-screen {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  #vehicle-image {
+    width: 250px;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+    border: 3px solid #2196f3;
+    border-radius: 12px;
+  }
+  
+  .option-btn, .menu-btn {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 8px;
+  }
+  .option-btn:hover, .menu-btn:hover {
+    background-color: #388e3c;
+  }
+  
